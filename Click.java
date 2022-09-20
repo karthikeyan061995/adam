@@ -9,11 +9,12 @@ public class Click {
 
 	public static void main(String[] args) {
 		PropertyConfigurator.configure("Checking.info");
-		log.info("Hello");
+		log.info("Bye");
 		log.debug(12*7);
 		log.error("Error");
 		log.warn("Warning");
-		log.fatal("Fatal");
+		log.fatal("Good");
+		
 
 		
 	
